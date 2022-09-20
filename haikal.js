@@ -101,22 +101,22 @@ wm = 'HW MODS WA'
 // Time & Date
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapanWaktu = 'Selamat Malam'
+var ucapanWaktu = 'Good Night'
 }
 if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Petang'
+var ucapanWaktu = 'Good Evening'
  }
 if(time2 < "18:00:00"){
-var ucapanWaktu = 'Selamat Sore'
+var ucapanWaktu = 'Good Evening'
  }
 if(time2 < "15:00:00"){
-var ucapanWaktu = 'Selamat Siang'
+var ucapanWaktu = 'Good Afternoon'
  }
 if(time2 < "11:00:00"){
-var ucapanWaktu = 'Selamat Pagi'
+var ucapanWaktu = 'Good Morning'
  }
 if(time2 < "05:00:00"){
-var ucapanWaktu = 'Selamat Malam'
+var ucapanWaktu = 'Good Early Morning'
  }
 //=================================================//
 module.exports = haikal = async (haikal, m, chatUpdate, store) => {
@@ -182,7 +182,7 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "14169948404-1305080833
 },
 "message": {
 "extendedTextMessage": {
-"text": "© HW MODS WA ]️",
+"text": "© DUX BOT ]️",
 "previewType": "NONE",
 "contextInfo": {
 "stanzaId": "3EB0382EDBB2",
